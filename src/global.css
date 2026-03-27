@@ -11,6 +11,7 @@
 
     font-family: 'Inter', sans-serif;
     text-decoration: none;
+    list-style: none;
 }
 
 html, body{
@@ -21,7 +22,7 @@ html, body{
 body {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 
     background-color: #071226;
 
@@ -29,13 +30,15 @@ body {
 }
 
 :root {
+    --header-background: #020C1D;
     --secondary-color: #0B2540;
     --tertiary-color: #2B66FF;
-    --hover: #2255d8;
-    --active: #1042c2;
+    --blue-hover: #2255d8;
+    --blue-active: #1042c2;
     
     --neutral-100: #FFFFFF;
     --neutral-200: #93A6BF;
+
     --hover-neutral-200: #748296;
     --active-neutral-200: #4f5967;
 }
