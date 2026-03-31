@@ -20,13 +20,16 @@ html, body{
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    margin: 0;
+    min-height: 100vh;
+    padding-top: 107px;
 
     background-color: #071226;
-
     line-height: 1.5;
+}
+
+#root {
+    width: 100%;
 }
 
 :root {
