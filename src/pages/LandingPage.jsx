@@ -1,6 +1,7 @@
-import Header from '../components/Header/Header'
-import Hero from '../components/Hero/Hero'
-import Specialities from '../components/Specialities/Specialities'
+import Header from '../components/Header'
+import Hero from '../components/Hero'
+import Specialities from '../components/Specialities'
+import Projects from '../components/Projects'
 
 export default function LandingPage() {
     return (
@@ -8,6 +9,7 @@ export default function LandingPage() {
             <Header/>
             <Hero/>
             <Specialities/>
+            <Projects/>
         </>
     )
 }
