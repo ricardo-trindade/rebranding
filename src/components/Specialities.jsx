@@ -22,6 +22,8 @@ const StyledSpecialities = styled.section`
         gap: 16px;
     }
 
+    .title > h2 { line-height: 48px; }
+
     .card-group {
         display: flex;
         flex-direction: row;
@@ -52,6 +54,7 @@ const StyledSpecialities = styled.section`
         font-size: 15px;
         font-weight: 400;
         color: var(--neutral-200);
+        line-height: 24px;
     }
 
     .icon-container {
@@ -75,7 +78,7 @@ export default function Specialities() {
     return (
         <StyledSpecialities>
             <div className="title">
-                <h3 id="Specialities">ESPECIALIDADES</h3>
+                <h4 id="Specialities">ESPECIALIDADES</h4>
                 <h2>Elevando o padrão <br/> do seu produto digital</h2>
             </div>
             <div className="card-group">
