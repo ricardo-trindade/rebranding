@@ -56,18 +56,18 @@ export default function Projects() {
     return (
         <StyledProjects>
             <div className="title">
-                <h3>NOSSO TRABALHO</h3>
+                <h4>NOSSO TRABALHO</h4>
                 <h2 id="Projects">Projetos selecionados</h2>
             </div>
             <div className="projects-group">
                 <div className="project-card">
                     <img src={firstProjectImage} alt="Plataforma Financeira" />
-                    <h4>Plataforma Financeira</h4>
+                    <h3>Plataforma Financeira</h3>
                     <span>UI/UX Design • Web App</span>
                 </div>
                 <div className="project-card">
                     <img src={secondProjectImage} alt="App de E-commerce" />
-                    <h4>App de E-commerce</h4>
+                    <h3>App de E-commerce</h3>
                     <span>Product Design • Mobile</span>
                 </div>
             </div>
