@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import logo from '../assets/icons/logo.svg'
 import menuHamburger from '../assets/icons/menu-hamburger-icon.svg'
-import { useState } from 'react'
 
 const StyledHeader = styled.header`
     display: flex;
@@ -26,15 +25,15 @@ const StyledHeader = styled.header`
         height: 40px;
     }
 
-    nav ul {
+    .navigation ul {
         display: flex;
         align-items: center;
         gap: 32px;    
     }
 
-    .home-link, .contact-link { color: var(--neutral-200) }
-    .home-link:hover, .contact-link:hover { color: var(--hover-neutral-200); }
-    .home-link:active, .contact-link:active { color: var(--active-neutral-200) }
+    .common-link { color: var(--neutral-200) }
+    .common-link:hover { color: var(--hover-neutral-200); }
+    .common-link:active { color: var(--active-neutral-200) }
 
     .portfolio-link { color: var(--tertiary-color); }   
     .portfolio-link:hover { color: var(--blue-hover); }
@@ -85,12 +84,12 @@ export default function Header() {
         <StyledHeader>
             <img src={logo} alt="Logo da empresa" />
 
-            <nav>
+            <nav className='navigation'>
                 <ul>
-                    <li><a href="" className='home-link'>Home</a></li>
-                    <li><a href="" className='contact-link'>Contact</a></li>
+                    <li><a href="" className='common-link'>Home</a></li>
+                    <li><a href="" className='common-link'>Contato</a></li>
                     <li><a href="" className='portfolio-link'>Portfolio</a></li>
-                    <li><a href="" className='start-button'>Start</a></li>
+                    <li><a href="" className='start-button'>Começar</a></li>
                 </ul>
             </nav>
 
