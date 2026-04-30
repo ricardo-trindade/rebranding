@@ -14,6 +14,7 @@ const StyledHero = styled.section`
         font-weight: 600;
         text-align: center;
         color: var(--neutral-100);
+        line-height: 83px;
     }
 `
 
